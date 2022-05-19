@@ -15,6 +15,9 @@ const Navegador = () => {
                             <Link className="nav-link"  to={{pathname:"/"}}>Home</Link>             
                         </li>
                         <li className="nav-item">
+                            <Link className="nav-link"  to={{pathname:"/cadastro"}}>Cadastro</Link>             
+                        </li>
+                        <li className="nav-item">
                             <Link className="nav-link" to={{pathname:"/sobre"}}>Sobre</Link>
                         </li>
                     </ul>

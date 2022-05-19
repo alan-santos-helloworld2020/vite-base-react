@@ -8,8 +8,8 @@ const Home = () => {
         
     },[]);
     return (
-        <div class="position-absolute top-50 start-50 translate-middle">
-            <img src={logo} alt="" srcset="" />
+        <div className="position-absolute top-50 start-50 translate-middle">
+            <img src={logo}/>
             <h3 className="text-center fw-bold">Home</h3>
         </div>
     )
